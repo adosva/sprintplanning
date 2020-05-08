@@ -1,0 +1,233 @@
+[
+    {
+        "sprintId": 1,
+        "content": [
+            {
+                "id": "DG1",
+                "description": "Pantalla principal atractiva  con video de fondo",
+                "completed": false,
+                "tasks": [
+                    {
+                        "id": 1,
+                        "description": "Crear maquetado del index",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "id": 2,
+                        "description": "Crear maquetado footer y heather",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "id": 3,
+                        "description": "Generar codigo index y probar",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "La primera impresión tiene que ser impactante"
+                ],
+                "conditions": [	"Desde el primer momento que ellos entran en mi página aparece un video con filtro gris con unas letras al frente de mi logo",
+                    	"En los dispositivos todos los dispositivos que no permitan esta función o tenga bajos datos móviles se les permite tener opción a ver solo una imagen",
+                    	"Al pasar el mouse por el logo cambiara su opacidad y color haciendo contraste con el video del fondo",
+                    	"El video no debe tener ningún audio o deberá estar muteado para poder reproducirlos en cualquier navegador."
+                    ]
+            },
+            {
+                "id": "DW1",
+                "description": "Ubicaciones donde se entrena, visualización de los horarios puedan botón para agendar su entrenamiento.",
+                "completed": false,
+                "tasks": [
+                    {
+                        "id": 4,
+                        "description": "Diseñar el boton",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "id": 5,
+                        "description": "Maquetar el boton en el index y prosiguiente en las demas paginas.",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "El botón debe ser discreto pero siempre a la vista."
+                ],
+                "conditions": [	"El usuario podrá ver los horarios y cupos disponibles, pero solo podrá apartar uno una vez pagado su servicio",
+                    	"La página le podrá abrir una nueva ubicación y horarios si la persona tiene un grupo mayor de 7 personas en el mismo horarios"
+                    ]
+            },
+            {
+                "id": "DW2",
+                "description": "Permitir método de pago con tarjeta de débito o crédito",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW2",
+                        "id": 6,
+                        "description": "Generar codigo para realizar el pago",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW2",
+                        "id": 7,
+                        "description": "Testeo del proceso y la transaccion del pago",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "Esto al realizar la transacción permitir estos métodos de pago al final del formato de pago"
+                ],
+                "conditions": []
+            }
+            
+        ]
+    },
+    {
+        "sprintId": 2,
+        "content": [
+            {
+                "id": "DW3",
+                "description": "Permitir una base de datos de estadísticas de peso, edad, estatura",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW3",
+                        "id": 4,
+                        "description": "Generar base de datos dirigida aun excel",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW3",
+                        "id": 5,
+                        "description": "Generar codigo que se vinculara al excel",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "Cada usuario tiene que tener su Id personal y el coach tener acceso a esa informacion"
+                ],
+                "conditions": [	"El usuario debe poner tener acceso exclusivo a su personal" ,
+                    	"El usuario debe poder tener acceso a registrar su avance semanalmente sin poder modificar anteriores resultados"
+                    
+                ]
+            },
+            {
+                "id": "DW4",
+                "description": "Base de datos de control sobre sus entrenamientos",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW4",
+                        "id": 6,
+                        "description": "Genera excel donde bajara la informacion de base de datos",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW4",
+                        "id": 7,
+                        "description": "Vincular codigo de capturador de datos con el excel",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    
+                ],
+                "conditions": [
+                    	"El coach debe poder modificar los resultados de cualquier fecha de los usuarios",
+	                    "El coach tiene una gráfica de los datos de cada uno de los alumnos y media del grupo"
+
+                ]
+            },
+            {
+                "id": "DW6",
+                "description": "Venta ágil en cada una de la página botón de contratación",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW6",
+                        "id": 8,
+                        "description": "Creación del diseño del boton",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW6",
+                        "id": 9,
+                        "description": "Maquetado del boton en las paginas",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "El botón debe estar junto al de agendar entrenamiento mismo diseño"
+                ],
+                "conditions": [	"En cada página de nuestro sitio tendrá la posibilidad de estar a los pasos de contratación a un solo clic",
+                    	"El formulario de pago debe ser breve y confiable"
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "sprintId": 3,
+        "content": [
+            {
+                "id": "DW5",
+                "description": "Descripción y desarrollo de los entrenamientos Información del programa",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW5",
+                        "id": 10,
+                        "description": "Arquitectura de la información",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW5",
+                        "id": 11,
+                        "description": "Maquetado de la informacion en la pagina",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    
+                ],
+                "conditions": ["la visualización del programa de entrenamiento debe estar después del index",
+                    "debe tener toda la información de manera gráfica con sus debidos descansos visuales"
+                    ]
+            }
+            
+            
+        ]
+    },
+    {
+        "sprintId": 4,
+        "content": [
+            {
+                "id": "DW7",
+                "description": "Estadísticas de frecuencia cardiaca y sus avances del mismo",
+                "completed": false,
+                "tasks": [
+                    {
+                        "backlogId": "DW7",
+                        "id": 12,
+                        "description": "Generar codigo que sincronize con el lector de frecuendia",
+                        "inCharge": "Adrian Valencia"
+                    },
+                    {
+                        "backlogId": "DW7",
+                        "id": 13,
+                        "description": "Generar excel y vincular con el capturador de datos",
+                        "inCharge": "Adrian Valencia"
+                    }
+                ],
+                "comments": [
+                    "El coach y el usuario con su id pueden tener acceso a ello"
+                ],
+                "conditions": [	"El usuario al finalizar su entrenamiento puede consultar el rendimiento de su rutina", 
+                    	"El usuario podrá comparar su rendimiento de todas sus sesiones",
+                    	"Las bandas de pulso son las que capturan los datos de las estadísticas del usuario",
+                    	"El sistema de captura de datos de la banda debe ser automatizado."
+                    ]
+            }
+           
+        ]
+    }
+]
