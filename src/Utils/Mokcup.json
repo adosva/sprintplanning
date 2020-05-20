@@ -128,7 +128,7 @@
                         "inCharge": "Adrian Valencia"
                     }
                 ],
-                "comments": [
+                "comments": ["La información que se guardará, rutina de rendimiento, repeticiones de los ejercicios, y tiempo"
                     
                 ],
                 "conditions": [
@@ -219,7 +219,7 @@
                     }
                 ],
                 "comments": [
-                    "El coach y el usuario con su id pueden tener acceso a ello"
+                    "El coach y el usuario con su id pueden tener acceso a ello. Guardarse  por fechas las frecuencias cardiacas de su sesión."
                 ],
                 "conditions": [	"El usuario al finalizar su entrenamiento puede consultar el rendimiento de su rutina", 
                     	"El usuario podrá comparar su rendimiento de todas sus sesiones",
